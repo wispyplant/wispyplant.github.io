@@ -35,11 +35,10 @@ const { tag, posts } = Astro.props
   />
   <Breadcrumbs
     items={[
-      { href: '/tags', label: 'Tags', icon: 'lucide:tags' },
-      { label: tag, icon: 'lucide:tag' },
+      { href: '/tags', label: 'Areas of Work', icon: 'lucide:trees' },
+      { label: tag, icon: 'lucide:droplets' },
     ]}
   />
-
   <div class="flex flex-wrap items-center gap-2">
     <h1 class="text-3xl font-medium">Posts tagged with</h1>
     <span
