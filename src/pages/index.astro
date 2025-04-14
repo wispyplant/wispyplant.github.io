@@ -15,54 +15,56 @@ const blog = await getRecentPosts(SITE.featuredPostCount)
   <section>
     <div class="rounded-lg border">
       <div class="flex flex-col space-y-1.5 p-6">
-        <h3 class="text-3xl leading-none font-medium">er·u·dite</h3>
-        <p class="text-muted-foreground text-sm">
-          /ˈer(y)əˌdīt/ &bull; <span class="font-medium">adjective</span>
+        <h3 class="text-3xl leading-none font-medium">Hello, I'm an independent researcher and artist specialising in climate change</h3> 
+        <br>
+        <p class="text-muted-foreground text-med">
+          climate change &bull; history &bull; technology &bull; justice
         </p>
-      </div>
-      <div class="p-6 pt-0">
-        <p class="text-muted-foreground mb-2 text-sm">
-          astro-erudite is an opinionated, unstyled static blogging template
-          built with <Link
-            href="https://astro.build"
-            class="text-foreground"
-            external
-            underline>Astro</Link
-          >, <Link
-            href="https://tailwindcss.com"
-            class="text-foreground"
-            external
-            underline>Tailwind</Link
-          >, and <Link
-            href="https://ui.shadcn.com"
-            class="text-foreground"
-            external
-            underline>shadcn/ui</Link
-          >. Extraordinarily loosely based on the <Link
-            href="https://astro-micro.vercel.app/"
-            class="text-foreground"
-            external
-            underline>Astro Micro</Link
-          > theme.
-        </p>
-        <p class="text-muted-foreground text-sm">
-          To use this template, check out the <Link
-            href="https://github.com/jktrn/astro-erudite"
-            class="text-foreground"
-            underline
-            external>GitHub</Link
-          > repository. To learn more about why this template exists, read this blog
-          post: <Link
-            href="/blog/the-state-of-static-blogs"
-            class="text-foreground"
-            underline>The State of Static Blogs in 2024</Link
-          >.
-        </p>
+      </div>   
+      <img src="/page_media/aytc_profile_credit_louise_hobson.png" alt="Angela in an orange jumper crouched at a rocky seaside. She wears a black tote bad and a grey cap.">
+     <br>
+      <div class="p-6 pt-0"> 
+        <p class="text-muted-foreground mb-2 text-med">
+          "Angela YT Chan is an independent researcher and artist investigating climate change narratives with colonial history, data, technology, and justice. Her projects often include interdisciplinary collaborations in policy, academia and activism.
+          <br><br>
+          She is a current resident with the Heritage for Global Challenges Research Centre (Archaeology, University of York) and AA2A, continuing her investigation “Critiquing a “Sustainable Military” and "Climate Tech". Previous highlight residencies include Arts Catalyst, FACT/Jerwood, Sonic Acts, Primary, Abandon Normal Devices, and Tactical Tech.
+          <br><br>
+          Angela has produced curatorial projects and workshops, collaborating with artists, activists and youth groups (formerly under the name Worm: art + ecology, 2014-2020). She co-directs the London Science Fiction Research Community. As an educator she has taught climate colonialism, environmental and social art, games and speculative fiction (Goldsmiths, KCL, RCA, WSA), and mentors artists working on digital media technologies.
+          <br><br>
+          Angela is also a research consultant, having worked on climate projects for major cultural institutions and in international climate and cultural policy at Julie's Bicycle. She has recently worked with INTERPRT, a research agency that pursues environmental justice through spatial and visual investigations. " 
+          </p>
       </div>
     </div>
   </section>
-  <section class="flex flex-col gap-y-4">
-    <h2 class="text-2xl font-medium">Latest posts</h2>
+    <section>
+    <div class="rounded-lg border">
+      <div class="flex flex-col space-y-1.5 p-6">
+        <h3 class="text-2xl leading-none font-medium">My main activities are:</h3> 
+        <br>
+        <p class="text-muted-foreground text-med">
+          arts practice &bull; research &bull; collaboration
+        </p>
+      </div>
+      <div class="p-6 pt-0">
+        <p class="text-muted-foreground mb-2 text-med">
+        
+              artworks &bull; 
+              curatorial &bull; 
+              workshops &bull; 
+              public talks &bull; 
+              writing &bull; 
+            climate and cultural research (investigations, policy, consultancy) &bull; 
+           teaching (university, youth groups) &bull; 
+           data practice (creative, engineering) &bull; 
+          </p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="rounded-lg border">
+      <div class="flex flex-col space-y-1.5 p-6">
+    <h2 class="text-2xl font-medium">Current projects</h2>
+    <br>
     <ul class="flex flex-col gap-y-4">
       {
         blog.map((post) => (
@@ -77,7 +79,7 @@ const blog = await getRecentPosts(SITE.featuredPostCount)
         href="/blog"
         class={buttonVariants({ variant: 'ghost' }) + ' group'}
       >
-        See all posts <span
+        See all projects <span
           class="ml-1.5 transition-transform group-hover:translate-x-1"
           >&rarr;</span
         >
