@@ -41,14 +41,17 @@ const formattedDate = formatDate(entry.data.date)
     <div class="grow">
       <h3 class="mb-1 text-lg font-medium">{entry.data.title}</h3>
       <p class="text-muted-foreground mb-2 text-sm">{entry.data.description}</p>
-
       <div
         class="text-muted-foreground mb-2 flex flex-wrap items-center gap-x-2 text-xs"
       >
         <span class="flex items-center gap-x-1.5">
               <Icon name="lucide:calendar" class="size-3" />
         <span>
-        <span>{formattedDate}</span>
+          {formattedDate}</span>
+           </span>
+          </p>
+        )
+      }
         <Separator orientation="vertical" className="h-4!" />
       {
         entry.data.tags && (
