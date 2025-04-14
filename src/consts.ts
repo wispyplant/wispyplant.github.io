@@ -12,31 +12,35 @@ export const SITE: Site = {
 }
 
 export const NAV_LINKS: SocialLink[] = [
-  {
-    href: '/blog',
-    label: 'blog',
-  },  
+    {
+    href: '/',
+    label: 'home',
+  },
   {
     href: '/about',
     label: 'about',
-  },
+  },  
   {
-    href: '/',
-    label: 'home',
+    href: '/blog',
+    label: 'activities',
+  },  
+  {
+    href: '/tags',
+    label: 'areas of work',
   },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: 'https://github.com/jktrn',
+    href: '',
     label: 'GitHub',
   },
   {
-    href: 'https://twitter.com/enscry',
+    href: '',
     label: 'Twitter',
   },
   {
-    href: 'mailto:jason@enscribe.dev',
+    href: 'mailto:angela.yt,chan@gmail.com',
     label: 'Email',
   },
   {
@@ -49,7 +53,7 @@ export const ICON_MAP: IconMap = {
   Website: 'lucide:globe',
   GitHub: 'lucide:github',
   LinkedIn: 'lucide:linkedin',
-  Twitter: 'lucide:twitter',
   Email: 'lucide:mail',
   RSS: 'lucide:rss',
 }
+
