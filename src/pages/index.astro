@@ -7,7 +7,10 @@ import { SITE } from '@/consts'
 import Layout from '@/layouts/Layout.astro'
 import { getRecentPosts } from '@/lib/data-utils'
 
-const blog = await getRecentPosts(SITE.featuredPostCount)
+const blog = (await getCollection('blog'))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.startDate.valueOf() - a.data.startDate.valueOf())
+  .slice(0, SITE.featuredPostCount)
 ---
 
 <Layout>
