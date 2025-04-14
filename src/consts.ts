@@ -4,7 +4,7 @@ export const SITE: Site = {
   title: 'wispyplant',
   description:
     'hello!',
-  href: 'https://astro-erudite.vercel.app',
+  href: 'https://wispyplant.github.io',
   author: 'wispy',
   locale: 'en-Uk',
   featuredPostCount: 2,
