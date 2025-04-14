@@ -66,7 +66,9 @@ const { next, prev } = await getAdjacentPosts(currentPostId)
           <div class="flex items-center gap-2">
             <Icon name="lucide:calendar" class="size-3" />
             <span>{formatDate(post.data.date)}</span>
-            <span>{formatDate(post.data.endDate)}</span>
+            {project.data.endDate
+                  ? ` → ${formatDate(project.data.endDate)}`
+                  : ' → Present'}
             <Separator orientation="vertical" className="h-4!" />
           </div>
         </div>
