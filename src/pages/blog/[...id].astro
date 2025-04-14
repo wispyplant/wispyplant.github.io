@@ -36,8 +36,8 @@ const { next, prev } = await getAdjacentPosts(currentPostId)
     <div class="col-start-2">
       <Breadcrumbs
         items={[
-          { href: '/blog', label: 'Blog', icon: 'lucide:archive' },
-          { label: post.data.title, icon: 'lucide:file-text' },
+          { href: '/blog', label: 'Activities', icon: 'lucide:tree-deciduous' },
+          { label: post.data.title, icon: 'lucide:square-terminal' },
         ]}
       />
     </div>
@@ -64,6 +64,7 @@ const { next, prev } = await getAdjacentPosts(currentPostId)
           class="text-muted-foreground mb-4 flex flex-wrap items-center justify-center gap-2 text-sm"
         >
           <div class="flex items-center gap-2">
+            <Icon name="lucide:calendar" class="size-3" />
             <span>{formatDate(post.data.date)}</span>
             <Separator orientation="vertical" className="h-4!" />
           </div>
