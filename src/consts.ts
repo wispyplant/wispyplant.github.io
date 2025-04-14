@@ -1,11 +1,11 @@
 import type { IconMap, SocialLink, Site } from '@/types'
 
 export const SITE: Site = {
-  title: 'wispyplant',
+  title: 'aytc',
   description:
-    'hello!',
+    'artist portfolio and research blog',
   href: 'https://wispyplant.github.io',
-  author: 'wispy',
+  author: 'Angela YT Chan',
   locale: 'en-Uk',
   featuredPostCount: 2,
   postsPerPage: 3,
