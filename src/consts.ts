@@ -32,15 +32,11 @@ export const NAV_LINKS: SocialLink[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: '',
-    label: 'GitHub',
+    href: 'https://bsky.app/profile/aytc0.bsky.social',
+    label: 'Bluesky',
   },
   {
-    href: '',
-    label: 'Twitter',
-  },
-  {
-    href: 'mailto:angela.yt,chan@gmail.com',
+    href: 'mailto:angela.yt.chan@gmail.com',
     label: 'Email',
   },
   {
@@ -50,9 +46,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ]
 
 export const ICON_MAP: IconMap = {
-  Website: 'lucide:globe',
-  GitHub: 'lucide:github',
-  LinkedIn: 'lucide:linkedin',
+  Bluesky: 'lucide:message-square-code',
   Email: 'lucide:mail',
   RSS: 'lucide:rss',
 }
