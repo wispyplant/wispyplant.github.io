@@ -8,7 +8,7 @@ export const SITE: Site = {
   author: 'Angela YT Chan',
   locale: 'en-Uk',
   featuredPostCount:6,
-  postsPerPage: 10,
+  postsPerPage: 20,
 }
 
 export const NAV_LINKS: SocialLink[] = [
