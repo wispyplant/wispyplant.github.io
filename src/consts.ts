@@ -4,7 +4,7 @@ export const SITE: Site = {
   title: 'Angela YT Chan',
   description:
     'artist portfolio and research blog',
-  href: 'https://wispyplant.github.io',
+  href: 'https://angelaytchan.net',
   author: 'Angela YT Chan',
   locale: 'en-Uk',
   featuredPostCount:6,
