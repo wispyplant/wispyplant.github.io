@@ -7,8 +7,8 @@ export const SITE: Site = {
   href: 'https://wispyplant.github.io',
   author: 'Angela YT Chan',
   locale: 'en-Uk',
-  featuredPostCount: 2,
-  postsPerPage: 3,
+  featuredPostCount:6,
+  postsPerPage: 10,
 }
 
 export const NAV_LINKS: SocialLink[] = [
