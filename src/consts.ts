@@ -32,7 +32,7 @@ export const NAV_LINKS: SocialLink[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: 'https://bsky.app/profile/aytc0.bsky.social',
+    href: 'https://bsky.app/profile/angelaytchan.net',
     label: 'Bluesky',
   },
   {
@@ -46,7 +46,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ]
 
 export const ICON_MAP: IconMap = {
-  Bluesky: 'lucide:message-square-code',
+  Bluesky: 'lucide:butterfly',
   Email: 'lucide:mail',
   RSS: 'lucide:rss',
 }
