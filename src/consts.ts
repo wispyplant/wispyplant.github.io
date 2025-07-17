@@ -46,7 +46,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ]
 
 export const ICON_MAP: IconMap = {
-  Bluesky: 'lucide:butterfly',
+  Bluesky: 'lucide:message-square-more',
   Email: 'lucide:mail',
   RSS: 'lucide:rss',
 }
