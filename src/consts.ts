@@ -36,7 +36,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'Bluesky',
   },
   {
-    href: 'mailto:angela.yt.chan@gmail.com',
+    href: 'mailto:hello@angelaytchan.net',
     label: 'Email',
   },
   {
